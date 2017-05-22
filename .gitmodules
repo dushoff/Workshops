@@ -1,0 +1,6 @@
+[submodule "makestuff"]
+	path = makestuff
+	url = git@github.com:dushoff/makestuff.git
+[submodule "localdir/Workshops/makestuff"]
+	path = localdir/Workshops/makestuff
+	url = git@github.com:dushoff/makestuff.git
