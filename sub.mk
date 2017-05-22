@@ -11,9 +11,8 @@ $(ms):
 
 ## It looks like git clone is making the subdirectory, so we need to focus on making the files
 ## Don't use a dependency here, as it will lead to re-initialization
-## The recursive make is also mostly useless …:
+## Recursive make will lead to infinite loops.
 $(ms)/%.mk: 
-	$(MAKE) $(ms)
 	git submodule init $(ms) 
 	git submodule update $(ms) 
 
