@@ -1,4 +1,8 @@
 ms = makestuff
+-include local.mk
+-include $(ms)/os.mk
+
+Sources += $(ms)
 
 ## I think this rule will only be used once per repo.
 ## It's here in case I decide to automatically copy it
@@ -13,5 +17,3 @@ $(ms)/%.mk:
 	git submodule init $(ms) 
 	git submodule update $(ms) 
 
--include local.mk
--include $(ms)/os.mk
