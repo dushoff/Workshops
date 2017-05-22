@@ -22,5 +22,6 @@ local.mk
 testdir/
 .testdir/
 subclone_dir/
+localdir/
 
 *.makestuff
