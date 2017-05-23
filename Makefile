@@ -2,7 +2,7 @@
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: add.Rout 
+target pngtarget pdftarget vtarget acrtarget: dfiles 
 
 ##################################################################
 
@@ -18,6 +18,11 @@ include sub.mk
 
 ## Content
 
+## This is a skeleton repo, whose main purpose is to make a working directory with other repos
+
+dirs = LatexTemplates disease_model_talks statistics_talks
+dfiles: $(dirs:%=%/Makefile)
+
 Sources += add.R
 
 add.Rout: add.R
@@ -27,9 +32,10 @@ add.Rout: add.R
 ### Makestuff
 
 include $(ms)/git.mk
+-include $(ms)/modules.mk
+
 -include $(ms)/visual.mk
 
 -include $(ms)/wrapR.mk
-# -include $(ms)/oldlatex.mk
 
 makestuff/%: makestuff ;

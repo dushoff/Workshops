@@ -9,9 +9,9 @@ Sources += $(ms)
 $(ms):
 	git submodule add git@github.com:dushoff/$@.git
 
-## It looks like git clone is making the subdirectory, so we need to focus on making the files
-## Don't use a dependency here, as it will lead to re-initialization
-## Recursive make will lead to infinite loops.
+## Cloned versions already have the subdirectory, so can't use that rule for initialization. Need a file-based rule
+## Dependency leads to pointless re-initialization
+## Recursive make leads to infinite loops.
 $(ms)/%.mk: 
 	git submodule init $(ms) 
 	git submodule update $(ms) 

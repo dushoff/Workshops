@@ -4,3 +4,12 @@
 [submodule "localdir/Workshops/makestuff"]
 	path = localdir/Workshops/makestuff
 	url = git@github.com:dushoff/makestuff.git
+[submodule "LatexTemplates"]
+	path = LatexTemplates
+	url = git@github.com:ICI3D/LatexTemplates.git
+[submodule "disease_model_talks"]
+	path = disease_model_talks
+	url = git@github.com:dushoff/disease_model_talks.git
+[submodule "statistics_talks"]
+	path = statistics_talks
+	url = git@github.com:dushoff/statistics_talks.git
