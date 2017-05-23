@@ -22,10 +22,7 @@ include sub.mk
 
 dirs = LatexTemplates disease_model_talks statistics_talks
 dfiles: $(dirs:%=%/Makefile)
-
-Sources += add.R
-
-add.Rout: add.R
+Sources += $(dirs)
 
 ######################################################################
 
