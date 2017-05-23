@@ -1,8 +1,9 @@
 # Workshops
-### Hooks for the editor to set the default target
-current: target
 
-target pngtarget pdftarget vtarget acrtarget: dfiles 
+### Hooks for the editor to set the default target
+### target.mk should not be in the repo, and it shouldn't matter if you don't have it or use it
+current: target
+-include target.mk
 
 ##################################################################
 
@@ -20,7 +21,7 @@ include sub.mk
 
 ## This is a skeleton repo, whose main purpose is to make a working directory with other repos
 
-dirs = LatexTemplates disease_model_talks statistics_talks
+dirs = LatexTemplates disease_model_talks statistics_talks MMED2017
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
 
