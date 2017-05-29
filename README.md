@@ -6,9 +6,11 @@ A new super-directory of workshop-related stuff. Meant to help me practice with 
 	* Foundations of dynamic modeling (Mon)
 		* disease_model_talks/family.txt
 	* Introduction to model implementation  - Live coding example (Tue)
-		* evince disease_model_talks/live_2016.R
+		* disease_model_talks/live_2016.R
 	* Consequences of heterogeneity, and modeling options  (Wed. early)
-	* Introduction to statistical philosophy  (Thu)
+		* disease_model_talks/heterogeneity.txt
+	* Introduction to statistical philosophy (Thu)
+		* statistics_talks/philosophy.txt
 	* Likelihood fitting and dynamic models (Mon)
 	* Data wrangling I: Data management and cleaning  (Tue)
 	* Computer session: R Tutorials - Data wrangling (Dushoff, Pulliam) [JD, KG, ZM, JP, CvS]
