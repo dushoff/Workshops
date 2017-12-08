@@ -27,6 +27,19 @@ Sources += $(dirs)
 
 ######################################################################
 
+## Import/export
+
+%.handouts.pdf: disease_model_talks/%.handouts.pdf
+	$(copy)
+
+%.handouts.pdf: statistics_talks/%.handouts.pdf
+	$(copy)
+
+daidd_2017_notes.zip: family.handouts.pdf heterogeneity.handouts.pdf evaluation.handouts.pdf
+	$(ZIP)
+
+######################################################################
+
 ### Makestuff
 
 include $(ms)/git.mk
