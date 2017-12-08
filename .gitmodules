@@ -13,3 +13,6 @@
 [submodule "MMED2017"]
 	path = MMED2017
 	url = https://github.com/ICI3D/MMED2017.git
+[submodule "math_talks"]
+	path = math_talks
+	url = https://github.com/dushoff/math_talks.git
