@@ -20,8 +20,9 @@ include sub.mk
 ## Content
 
 ## This is a skeleton repo, whose main purpose is to make a working directory with other repos
+## There's a tension here with dirs: I sort of want to add stuff here when I make it. But some stuff (like LatexTemplates) is really not needed at this level
 
-dirs = LatexTemplates disease_model_talks statistics_talks MMED2017 math_talks
+dirs = disease_model_talks statistics_talks MMED2017 math_talks
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
 
