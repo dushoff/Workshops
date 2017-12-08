@@ -12,6 +12,7 @@
 	url = https://github.com/dushoff/statistics_talks.git
 [submodule "MMED2017"]
 	path = MMED2017
+	url = git@github.com:ICI3D/MMED2017.git
 	url = https://github.com/ICI3D/MMED2017.git
 [submodule "math_talks"]
 	path = math_talks

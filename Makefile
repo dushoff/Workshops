@@ -21,7 +21,7 @@ include sub.mk
 
 ## This is a skeleton repo, whose main purpose is to make a working directory with other repos
 
-dirs = LatexTemplates disease_model_talks statistics_talks math_talks MMED2017
+dirs = LatexTemplates disease_model_talks statistics_talks MMED2017 math_talks
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
 
