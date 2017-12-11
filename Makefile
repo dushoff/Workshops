@@ -36,8 +36,17 @@ Sources += $(dirs)
 %.handouts.pdf: statistics_talks/%.handouts.pdf
 	$(copy)
 
-daidd_2017_notes.zip: family.handouts.pdf heterogeneity.handouts.pdf evaluation.handouts.pdf
-	$(ZIP)
+daidd_2017_notes.tgz: family.handouts.pdf heterogeneity.handouts.pdf evaluation.handouts.pdf
+	$(TGZ)
+
+%.draft.pdf: disease_model_talks/%.draft.pdf
+	$(copy)
+
+%.draft.pdf: statistics_talks/%.draft.pdf
+	$(copy)
+
+daidd_2017_slides.tgz: family.draft.pdf heterogeneity.draft.pdf evaluation.draft.pdf
+	$(TGZ)
 
 ######################################################################
 
