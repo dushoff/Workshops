@@ -20,9 +20,7 @@ commit.time
 local.mk
 target.mk
 
-testdir/
-.testdir/
-subclone_dir/
-localdir/
+dotdir
+clonedir
 
-*.makestuff
+daidd_2017_notes.zip
