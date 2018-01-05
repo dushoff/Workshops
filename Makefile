@@ -53,7 +53,7 @@ daidd_2017_slides.tgz: family.draft.pdf heterogeneity.draft.pdf evaluation.draft
 
 ### Makestuff
 
-include $(ms)/git.mk
+-include $(ms)/git.mk
 -include $(ms)/modules.mk
 
 -include $(ms)/visual.mk

@@ -1,6 +1,3 @@
-[submodule "makestuff"]
-	path = makestuff
-	url = https://github.com/dushoff/makestuff.git
 [submodule "disease_model_talks"]
 	path = disease_model_talks
 	url = https://github.com/dushoff/disease_model_talks.git
@@ -17,3 +14,7 @@
 [submodule "Lecture_images"]
 	path = Lecture_images
 	url = https://github.com/Bio3SS/Lecture_images.git
+[submodule "makestuff"]
+	path = makestuff
+	url = https://github.com/dushoff/makestuff.git
+	branch = master
