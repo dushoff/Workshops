@@ -21,6 +21,8 @@ include sub.mk
 
 ## This is a skeleton repo, whose main purpose is to make a working directory with other repos
 
+## Need to convert to mdirs paradigm tout suite!
+
 dirs = disease_model_talks statistics_talks MMED2017 math_talks
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
