@@ -26,6 +26,7 @@ include sub.mk
 dirs = disease_model_talks statistics_talks MMED2017 math_talks
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
+mdirs += $(dirs)
 
 ######################################################################
 
