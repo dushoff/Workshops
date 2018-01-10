@@ -1,7 +1,10 @@
 # Workshops
 
+## This is a new container repo (see hybrid repo)
+
+######################################################################
+
 ### Hooks for the editor to set the default target
-### target.mk should not be in the repo, and it shouldn't matter if you don't have it or use it
 current: target
 -include target.mk
 
@@ -9,19 +12,15 @@ current: target
 
 # make files
 
-Sources += sub.mk Makefile 
+Sources += makestuff.mk Makefile 
 Sources += .ignore README.md LICENSE.md
-include sub.mk
+include makestuff.mk
 
 # include $(ms)/perl.def
 
 ##################################################################
 
 ## Content
-
-## This is a new container repo
-
-## Need to convert to mdirs paradigm tout suite!
 
 ######################################################################
 
