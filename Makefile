@@ -10,7 +10,7 @@ current: target
 # make files
 
 Sources += sub.mk Makefile 
-Sources += .gitignore README.md LICENSE.md
+Sources += .ignore README.md LICENSE.md
 include sub.mk
 
 # include $(ms)/perl.def
@@ -19,14 +19,9 @@ include sub.mk
 
 ## Content
 
-## This is a skeleton repo, whose main purpose is to make a working directory with other repos
+## This is a new container repo
 
 ## Need to convert to mdirs paradigm tout suite!
-
-dirs = disease_model_talks statistics_talks MMED2017 math_talks
-dfiles: $(dirs:%=%/Makefile)
-Sources += $(dirs)
-mdirs += $(dirs)
 
 ######################################################################
 
@@ -55,10 +50,4 @@ daidd_2017_slides.tgz: family.draft.pdf heterogeneity.draft.pdf evaluation.draft
 ### Makestuff
 
 -include $(ms)/git.mk
--include $(ms)/modules.mk
-
 -include $(ms)/visual.mk
-
--include $(ms)/wrapR.mk
-
-makestuff/%: makestuff ;
