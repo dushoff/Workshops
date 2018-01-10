@@ -1,0 +1,17 @@
+[submodule "disease_model_talks"]
+	path = disease_model_talks
+	url = https://github.com/dushoff/disease_model_talks.git
+[submodule "statistics_talks"]
+	path = statistics_talks
+	url = https://github.com/dushoff/statistics_talks.git
+[submodule "MMED2017"]
+	path = MMED2017
+	url = git@github.com:ICI3D/MMED2017.git
+	url = https://github.com/ICI3D/MMED2017.git
+[submodule "math_talks"]
+	path = math_talks
+	url = https://github.com/dushoff/math_talks.git
+[submodule "makestuff"]
+	path = makestuff
+	url = https://github.com/dushoff/makestuff.git
+	branch = master

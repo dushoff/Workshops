@@ -11,6 +11,7 @@ current: target
 ##################################################################
 
 # make files
+# make .gitmodules.ef6f1.oldfile
 
 Sources += makestuff.mk Makefile 
 Sources += .ignore README.md LICENSE.md
