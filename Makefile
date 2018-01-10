@@ -21,6 +21,14 @@ include makestuff.mk
 
 ##################################################################
 
+## Transition
+# [submodule "disease_model_talks"]
+# [submodule "statistics_talks"]
+# [submodule "MMED2017"]
+# [submodule "math_talks"]
+
+##################################################################
+
 ## Content
 
 ######################################################################
