@@ -31,6 +31,17 @@ include makestuff.mk
 
 ## Content
 
+clonedirs += statistics_talks
+statistics_talks:
+	git clone https://github.com/dushoff/$@.git $@
+
+clonedirs += math_talks
+math_talks:
+	git clone https://github.com/dushoff/$@.git $@
+
+clonedirs += disease_model_talks
+disease_model_talks:
+	git clone https://github.com/dushoff/$@.git $@
 
 ######################################################################
 
