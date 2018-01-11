@@ -11,6 +11,7 @@ current: target
 ##################################################################
 
 # make files
+# make .gitmodules.ef6f1.oldfile
 
 Sources += makestuff.mk Makefile 
 Sources += .ignore README.md LICENSE.md
@@ -20,18 +21,27 @@ include makestuff.mk
 
 ##################################################################
 
+## Transition
+# [submodule "disease_model_talks"]
+# [submodule "statistics_talks"]
+# [submodule "MMED2017"]
+# [submodule "math_talks"]
+
+##################################################################
+
 ## Content
+
+clonedirs += statistics_talks
+statistics_talks:
+	git clone https://github.com/dushoff/$@.git $@
+
+clonedirs += math_talks
+math_talks:
+	git clone https://github.com/dushoff/$@.git $@
 
 clonedirs += disease_model_talks
 disease_model_talks:
 	git clone https://github.com/dushoff/$@.git $@
-
-clonedirs += disease_model_talks
-statistics_talks:
-	git clone https://github.com/dushoff/$@.git $@
-
-## "MMED2017"]
-## "math_talks"]
 
 ######################################################################
 
