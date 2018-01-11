@@ -1,6 +1,8 @@
 Converting to a container repo (under hybrid). Apparently forgot to do 
 * make cloneignore
 
+... still worked, followed by cloneup
+
 ----------------------------------------------------------------------
 
 A new super-directory of workshop-related stuff. Meant to help me practice with submodules. But also (with luck) should be a central, reproducible repo for my actual workshop talks, etc.
