@@ -35,10 +35,12 @@ clonedirs += statistics_talks
 statistics_talks:
 	git clone https://github.com/dushoff/$@.git $@
 
+## cd math_talks && make rumfetch ##
 clonedirs += math_talks
 math_talks:
 	git clone https://github.com/dushoff/$@.git $@
 
+## cd disease_model_talks && make rumfetch ## ##
 clonedirs += disease_model_talks
 disease_model_talks:
 	git clone https://github.com/dushoff/$@.git $@
