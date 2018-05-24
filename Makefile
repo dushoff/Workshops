@@ -10,14 +10,22 @@ current: target
 
 ##################################################################
 
-# make files
-# make .gitmodules.ef6f1.oldfile
+Sources += Makefile .ignore 
+Ignore += .gitignore
 
-Sources += makestuff.mk Makefile 
-Sources += .ignore README.md LICENSE.md
-include makestuff.mk
+msrepo = https://github.com/dushoff
+ms = makestuff
+Ignore += local.mk
+-include local.mk
+-include $(ms)/os.mk
 
-# include $(ms)/perl.def
+Ignore += $(ms)
+## Sources += $(ms)
+Makefile: $(ms) $(ms)/Makefile
+$(ms):
+	git clone $(msrepo)/$(ms)
+
+# -include $(ms)/perl.def
 
 ##################################################################
 
