@@ -43,6 +43,11 @@ clonedirs += disease_model_talks
 disease_model_talks:
 	git clone https://github.com/dushoff/$@.git $@
 
+## Outdated; merging into disease_model_talks!
+clonedirs += Rabies_talks
+Rabies_talks:
+	git clone https://github.com/dushoff/$@.git $@
+
 ######################################################################
 
 ## Import/export
