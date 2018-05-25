@@ -20,6 +20,7 @@ Ignore += local.mk
 -include local.mk
 -include $(ms)/os.mk
 
+## Cloned ms in this non-working repo
 Ignore += $(ms)
 ## Sources += $(ms)
 Makefile: $(ms)
