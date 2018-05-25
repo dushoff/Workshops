@@ -1,6 +1,7 @@
 # Workshops
 
-## This is a new container repo (see hybrid repo)
+## This was made as a hybrid container repo
+## Do we want to move away from hierarchy altogether??
 
 ######################################################################
 
@@ -21,7 +22,7 @@ Ignore += local.mk
 
 Ignore += $(ms)
 ## Sources += $(ms)
-Makefile: $(ms) $(ms)/Makefile
+Makefile: $(ms)
 $(ms):
 	git clone $(msrepo)/$(ms)
 
