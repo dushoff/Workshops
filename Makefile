@@ -62,6 +62,8 @@ clonedirs += Rabies_talks
 Rabies_talks:
 	git clone https://github.com/dushoff/$@.git $@
 
+clonedirs: $(clonedirs)
+
 ######################################################################
 
 ## Import/export
