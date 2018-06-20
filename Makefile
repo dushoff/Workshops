@@ -3,6 +3,8 @@
 ## This was made as a hybrid container repo
 ## Do we want to move away from hierarchy altogether??
 
+## Yes! I really want to deprecate this complicated container and put its children directly into gitroot. But what about their children??
+
 ######################################################################
 
 ### Hooks for the editor to set the default target
