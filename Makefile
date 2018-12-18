@@ -33,6 +33,8 @@ $(ms):
 
 ##################################################################
 
+screen_session: ../disease_model_talks.vscreen ../statistics_talks.vscreen ../math_talks.vscreen
+
 ## Transition
 # [submodule "disease_model_talks"]
 # [submodule "statistics_talks"]
