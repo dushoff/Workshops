@@ -15,8 +15,7 @@ current: target
 
 ##################################################################
 
-Sources += Makefile .ignore 
-Ignore += .gitignore
+Sources += Makefile
 
 msrepo = https://github.com/dushoff
 ms = makestuff
@@ -35,7 +34,7 @@ $(ms):
 
 ##################################################################
 
-screen_session: ../disease_model_talks.vscreen ../statistics_talks.vscreen ../math_talks.vscreen
+screen_session: ../disease_model_talks.vscreen ../statistics_talks.vscreen ../math_talks.vscreen ../Generation_talks.vscreen
 
 ## Transition
 # [submodule "disease_model_talks"]
