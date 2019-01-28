@@ -1,11 +1,7 @@
 # Workshops
 
-## This was made as a hybrid container repo
-## Do we want to move away from hierarchy altogether??
-
-## Yes! I really want to deprecate this complicated container and put its children directly into gitroot. But what about their children??
-
 ## Removed a whole bunch more stuff 2018 Dec 18 (Tue)
+## No submodules now; am I happy? 2019 Jan 27 (Sun)
 
 ######################################################################
 
@@ -15,7 +11,7 @@ current: target
 
 ##################################################################
 
-Sources += Makefile
+Sources += Makefile README.md
 
 msrepo = https://github.com/dushoff
 ms = makestuff
