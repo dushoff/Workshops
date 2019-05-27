@@ -11,7 +11,7 @@ Banners: LatexTemplates/ici3dCurrent.tex
 	* also check \years in copyright for each .txt file
 
 Content
-	* stats: medset, etc., make rules (in stats; nothing implemented here)
+	* stats: medset, etc., make rules
 	* disease: Selection is controlled from local.txt.format. Could copy the stats style, but so far not a lot of selection going on
 
 Lectures and talks
